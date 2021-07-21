@@ -1,8 +1,6 @@
-//list company Dislikes dev in requirement
-
 const List dislikes_company_detail_json = [
    {
-    "img": "assets/img_17.jpeg",
+    "img": "assets/img_1.jpeg",
     "title": "Design web in React",
     "company": "POPS Entertainment",
     "time": "7 days remain",
@@ -28,17 +26,18 @@ const List dislikes_company_detail_json = [
     "img_linked": "assets/img_linked.jpeg",
     "link_title": "POPS Entertainment's Linked",
     
-  },{
-    "img": "assets/img_18.jpeg",
+  },
+{
+    "img": "assets/img_1.jpeg",
     "title": "Design WordPress",
     "company": "Absolute Corp",
     "time": "7 days remain",
     "price": "\$100 - \$200",
-    "jobTitle": "Front-end Developer",
-    "expiredDay": "3 days",
+    "jobTitle": "Web Developer",
+    "expiredDay": "3days",
     "location": "HCMC, Vietnam",
     "experience": "1 years",
-    "skills": ["WordPress", "HTML", "CSS", "UI-UX", "PHP"],
+    "skills": ["WordPress", "HTML", "CSS", "UI-UX"],
     "description":
         '''- Design a basic websites using WordPress to manage student, 
     - Website have some functions as CRUD.

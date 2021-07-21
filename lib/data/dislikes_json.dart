@@ -1,30 +1,28 @@
 const List dislikes_json = [
   {
-    "img": "assets/img_17.jpeg",
+    "img": "assets/nam.jpg",
+    "active": true,
+    
+  },
+  {
+    "img": "assets/kiet.jpg",
     "active": true,
   },
   {
-    "img": "assets/img_18.jpeg",
-    "active": true,
-  },
-  {
-    "img": "assets/img_19.jpeg",
+    "img": "assets/khoi.jpg",
     "active": false,
   },
   {
-    "img": "assets/img_20.jpeg",
+    "img": "assets/hoang.jpg",
     "active": false,
   },
   {
-    "img": "assets/img_21.jpeg",
+    "img": "assets/hien.jpg",
     "active": true,
   }, 
   {
-    "img": "assets/img_22.jpeg",
+    "img": "assets/chanh.jpg",
     "active": true,
   },
-  {
-    "img": "assets/img_23.jpeg",
-    "active": true,
-  },
+ 
 ];

@@ -11,7 +11,7 @@ class AddImageProfile extends StatefulWidget {
 class AddImageProfileState extends State<AddImageProfile> {
   File _image;
   Uint8List memoryImage;
-  bool isFile = false;
+  
 
   Future getImage() async {
     final picker = ImagePicker();
@@ -19,7 +19,7 @@ class AddImageProfileState extends State<AddImageProfile> {
 
     if (pickedFile == null) return;
 
-    if (isFile) {
+    if (_image != null) {
       setState(() {
         _image = File(pickedFile.path);
       });
@@ -86,13 +86,13 @@ class AddImageProfileState extends State<AddImageProfile> {
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
+    var width = MediaQuery.of(context).size.width;
     return Container(
       child: Column(
         children: [
           Container(
-            width: size.width * 0.31,
-            height: size.width * 0.41,
+            width: width * 0.31,
+            height: width * 0.41,
             child: Stack(
               children: [
                 if (_image != null) buildFileImage(),
@@ -101,8 +101,8 @@ class AddImageProfileState extends State<AddImageProfile> {
                   bottom: 0,
                   right: 0,
                   child: Container(
-                      width: size.width * 0.08,
-                      height: size.width * 0.08,
+                      width: width * 0.08,
+                      height: width * 0.08,
                       decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           color: white,

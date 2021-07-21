@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 class ButtonHeaderWidget extends StatelessWidget {
-  final double width;
-  final double height;
+    final double width;
+    final double height;
+
   final double marginIndex;
   final String title;
   final String text;
@@ -10,9 +11,9 @@ class ButtonHeaderWidget extends StatelessWidget {
 
   const ButtonHeaderWidget({
     Key key,
+    @required this.title,
     @required this.width,
     @required this.height,
-    @required this.title,
     @required this.marginIndex,
     @required this.text,
     @required this.onClicked,
@@ -22,9 +23,9 @@ class ButtonHeaderWidget extends StatelessWidget {
   Widget build(BuildContext context) => HeaderWidget(
         title: title,
         child: ButtonWidget(
-          width: width,
-          height: height,
           marginIndex: marginIndex,
+          width:width,
+          height:height,
           title: title,
           text: text,
           onClicked: onClicked,
@@ -33,10 +34,10 @@ class ButtonHeaderWidget extends StatelessWidget {
 }
 
 class ButtonWidget extends StatelessWidget {
-  final double width;
-  final double height;
   final String title;
   final double marginIndex;
+final double width;
+    final double height;
   final String text;
   final VoidCallback onClicked;
 

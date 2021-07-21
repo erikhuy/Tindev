@@ -1,26 +1,38 @@
 const List likes_json = [
   {
-    "img": "assets/img_1.jpeg",
-    "active": true
+    "img": "assets/binh.jpg",
+    "job_applied": "Design Website",
+    "job_type":"Mobile Developer",
+    "name":"Tran Binh",
   },
   {
-    "img": "assets/img_2.jpeg",
-    "active": false
+    "img": "assets/trien.jpg",
+    "job_applied": "Design Website",
+    "job_type":"Front-End Developer",
+    "name":"Kien Trien",
   },
   {
-    "img": "assets/img_3.jpeg",
-    "active": false
+    "img": "assets/phu.jpg",
+    "job_applied": "Design Website",
+    "job_type":"Jav Developer",
+    "name":"Danh Phu",
   },
   {
-    "img": "assets/img_4.jpeg",
-    "active": true
+    "img": "assets/cuong.jpg",
+    "job_applied":"Design Website",
+    "job_type":"IOS Developer",
+    "name":"Phu Cuong",
   },
   {
-    "img": "assets/img_5.jpeg",
-    "active": true
+    "img": "assets/hiep.jpg",
+    "job_applied": "Design Website",
+    "job_type":"Android Developer",
+    "name":"Thanh Hiep",
   }, 
   {
-    "img": "assets/img_6.jpeg",
-    "active": true
+    "img": "assets/trung.jpg",
+    "job_applied": "Design Website",
+    "job_type":"System Design",
+    "name":"Tan Trung",
   },
 ];
